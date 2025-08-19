@@ -1,0 +1,7 @@
+a = input("Enter a string: ")
+res = ""
+for i in a:
+    if i.isalpha() :
+        res += i
+    res1 = res.capitalize()
+print("Modified string:", res1)
